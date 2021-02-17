@@ -1,0 +1,199 @@
+.form {
+  width: 100%;
+}
+.login_wrap{
+	margin-bottom: 100px;
+}
+
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea,select,input[type="file"] {
+  box-sizing: border-box;
+  padding: 4px 0;
+  width: 100%;
+  
+  border: 0;
+  border: 1px solid #ddd;
+  box-shadow: none;
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -ms-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+  margin-bottom: 5px;
+  color: #999;
+  font-family: 'Open Sans', sans-serif;
+}
+
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none
+  padding: 10px;
+}
+
+textarea {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  min-height: 65px;
+}
+
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+textarea:focus,
+select:focus {
+  outline: 0;
+  border-bottom: 1px solid #999;
+}
+
+.bgblue {
+  border: 0;
+  width: 40%;
+  
+  display: inline-block;
+  margin-top: 10px;
+ 
+  display: block; margin: auto;
+}
+
+label,
+legend {
+  display: block;
+  margin-bottom: 3px;
+  margin-left: 5px;
+  
+}
+
+fieldset {
+  padding: 0;
+  border-width: 0;
+}
+
+.btn-add-bk {
+  position: relative;
+  display: block;
+  overflow: visible;
+
+  margin: auto;
+   margin-top: 10px;
+  padding: 5px 10px;
+  background: #333;
+  color: #fff;
+
+  white-space: nowrap;
+  font-size: 1.3rem;
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -ms-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.btn:active,
+.iconbtn:active {
+  opacity: .3;
+}
+
+.bgblue {
+  background-color: rgb(96 1 255);
+}
+.login_wrap{
+	width: 30%;
+	margin: auto;
+	margin-bottom: 100px;
+}
+@media only screen and (max-width: 767px) {
+  .login_wrap {
+    width: 100%;
+    margin: 0 auto;
+    background: #fff;
+    padding: 30px;
+  }
+}
+
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea{
+	padding: 10px 10px;
+	background-color: #f4F4F4;
+	
+}
+input[type="file"]:before {
+
+   background-color: green;
+
+
+
+}
+
+
+
+
+
+/**************/
+
+.text-center{
+text-align: center;
+margin-bottom: 50px;
+}
+
+.custom-file-wrp{
+	 border: 1px solid #ddd;
+	overflow: hidden;
+	background-color: #f4F4F4;
+
+}
+
+
+
+.custom-file input[type="file"]
+{
+	display: none
+}
+
+.custom-file label{
+	cursor: pointer;
+	background: rgb(96 1 255);
+	display: inline-block;
+	color: #fff;
+	padding: 10px 10px;
+	text-align: center;
+	float: right;
+	margin-bottom: 0px;
+}
+
+.custom-file-wrp span {
+	display: inline-block;
+	margin: 6px 
+}
+
+.alert{
+  box-shadow: 1px 1px 1px green;
+  z-index: 2;
+
+  margin: auto;
+  width:100%;
+ }
